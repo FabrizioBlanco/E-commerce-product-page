@@ -1,9 +1,5 @@
 .imageContainer {
     position: relative;
-    /* background-image: url("src/assets/images/image-product-1.jpg"); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* background-position: left top; */
     width: 100%;
     height: 300px;
 }

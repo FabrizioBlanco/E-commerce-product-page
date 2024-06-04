@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import "../productComponent/Product.css"
-export default function Product() {
+import "../ProductImage/ProductImage.css"
+export default function ProductImage() {
     const [productImg, setProductImg] = useState(1)
     const handlePrevious = () => {
         if (productImg > 1) {

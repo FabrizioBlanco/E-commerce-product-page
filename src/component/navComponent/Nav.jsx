@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import "../navComponent/Nav.css"
+import "./Nav.css"
 export default function Nav() {
     // useEffect(() => {
     //     const hadleResize = () => {
