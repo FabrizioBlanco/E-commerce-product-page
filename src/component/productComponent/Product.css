@@ -1,0 +1,34 @@
+.imageContainer {
+    position: relative;
+    /* background-image: url("src/assets/images/image-product-1.jpg"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: left top; */
+    width: 100%;
+    height: 300px;
+}
+
+.interativeButton {
+    position: absolute;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
+#previous {
+    left: 10px;
+    top: 45%;
+}
+
+#next {
+    right: 10px;
+    top: 45%;
+}
+
+#productImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left top;
+}

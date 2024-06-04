@@ -1,0 +1,22 @@
+.navHeader{
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerSection{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.navIcon{
+    height: 15px;
+    padding: 5px;
+}
+#cart{
+    height: 15px;
+    padding-right: 10px;
+}
+#avatar{
+    height: 25px;
+}
