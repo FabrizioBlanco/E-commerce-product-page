@@ -1,0 +1,28 @@
+.priceContainer {
+    position: relative;
+    margin: 0 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.actualPrice {
+    font-weight: 700;
+    font-size: 1.9em;
+}
+.discount {
+    position: absolute;
+    left: 110px;
+    margin: 10px;
+    width: 50px;
+    border-radius: 5px;
+    color: var(--orange);
+    background-color: var(--paleOrange);
+    font-weight: 700;
+    text-align: center;
+}
+.price {
+    color: var(--grayishBlue);
+    font-size: 1.1em;
+}

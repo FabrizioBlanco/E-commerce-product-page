@@ -1,20 +1,5 @@
-import { useEffect } from "react"
 import "./Nav.css"
 export default function Nav() {
-    // useEffect(() => {
-    //     const hadleResize = () => {
-    //         if (window.innerWidth < 768) {
-    //             console.log("Estamos por debajo")
-    //         } else {
-    //             console.log("Estamos por Encima")
-    //         }
-    //     }
-    //     //Clean listener at disassemble component
-    //     window.addEventListener("resize", hadleResize)
-    //     return ()=>{
-    //         window.removeEventListener("resize", hadleResize)
-    //     }
-    // }, [])
     return (
         <header className="navHeader">
             <div className="headerSection">

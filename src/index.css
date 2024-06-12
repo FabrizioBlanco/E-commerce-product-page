@@ -1,4 +1,16 @@
+:root{
+--veryDarkBlue: hsl(220, 13%, 13%);
+--darkGrayishBlue: hsl(219, 9%, 45%);
+--grayishBlue: hsl(220, 14%, 75%);
+--lightGrayishBlue: hsl(223, 64%, 98%);
+--white: hsl(0, 0%, 100%);
+--orange: hsl(36, 100%, 50%);
+--paleOrange: hsl(25, 100%, 94%);
+--BlackLightboxBackground: hsl(0, 0%, 0%);
+}
 body{
     margin: 0;
     box-sizing: border-box;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
 }

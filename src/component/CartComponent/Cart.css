@@ -1,0 +1,36 @@
+.cartContainer {
+    margin: auto 20px;
+}
+
+.countProduct {
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: var(--lightGrayishBlue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.counter {
+    color: var(--orange);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#cartButton {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--orange);
+    color: var(--white);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(180deg) brightness(107%) contrast(105%); /*done by chatGTP*/
+        margin: 10px;
+    }
+}
