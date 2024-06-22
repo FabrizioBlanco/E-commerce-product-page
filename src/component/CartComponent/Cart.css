@@ -17,6 +17,7 @@
     color: var(--orange);
     font-size: 2em;
     font-weight: 700;
+    cursor: pointer;
 }
 
 #cartButton {
@@ -32,5 +33,22 @@
     & img {
         filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(180deg) brightness(107%) contrast(105%); /*done by chatGTP*/
         margin: 10px;
+    }
+}
+#cartButton:hover {
+    cursor: pointer;
+    box-shadow: 1px 3px 10px var(--orange);
+}
+@media (min-width: 767px) {
+    
+    .cartContainer {
+        display: flex;
+        margin-right: 5px;
+    }
+    .countProduct {
+        width: 25%;
+    }
+    #cartButton{
+        width: 75%;
     }
 }

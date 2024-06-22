@@ -7,17 +7,23 @@ import Cart from './component/CartComponent/Cart'
 import { useState } from 'react'
 export default function App() {
   const [productCant, setProductCant] = useState(0)
+  const [productImg, setProductImg] = useState(1)
   return (
     <>
-      <Nav />
-      <ProductImage />
-      <ProductDescription />
-      <div className='priceContainer'>
-        <p className='actualPrice'>$125.00</p>
-        <span className='discount'>50%</span>
-        <s className='price'>$250.00</s>
+      <Nav productCant={productCant} setProductCant={setProductCant} />
+      <div className='container'>
+        <ProductImage productImg={productImg} setProductImg={setProductImg} />
+        <div className='prodDescContainer'>
+        <ProductDescription />
+        <div className='priceContainer'>
+          <p className='actualPrice'>$125.00</p>
+          <span className='discount'>50%</span>
+          <s className='price'>$250.00</s>
+        </div>
+        <Cart setProductCant={setProductCant} productCant={productCant} />
+        </div>
       </div>
-      <Cart setProductCant={setProductCant} productCant = {productCant} />
+
     </>
   )
 }

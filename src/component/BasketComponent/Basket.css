@@ -1,0 +1,68 @@
+.basketContainer {
+    position: absolute;
+    width: 95%;
+    left: 10px;
+    top: 65px;
+    border-radius: 10px;
+    background-color: var(--white);
+    z-index: 100000;
+}
+#cartTitle{
+    padding: 0 10px;
+}
+.bascketProduct {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--grayishBlue);
+}
+
+#deleteButton {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    & img {
+        width: 20px;
+        border-radius: 0px;
+    }
+}
+.BasketPriceContainer{
+    padding: 4px;
+}
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    & img {
+        width: 70px;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+}
+
+.resumeDescription {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.BasketPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media(min-width: 767px){
+    .basketContainer{
+        width: 300px;
+        position: absolute;
+        top: 50px;
+        left: 60%;
+        box-shadow: 1px 3px 8px 1px black;
+    }
+}

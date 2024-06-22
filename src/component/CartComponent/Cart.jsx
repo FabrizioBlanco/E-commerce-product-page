@@ -1,5 +1,9 @@
 import "../CartComponent/Cart.css"
 export default function Cart({ setProductCant, productCant }) {
+
+    const addToBasket = () => {
+        setProductCant(productCant)
+    }
     const handleMinus = () => {
         if (productCant > 1) {
             setProductCant(productCant - 1)
@@ -16,7 +20,8 @@ export default function Cart({ setProductCant, productCant }) {
                 <p>{`${productCant}`}</p>
                 <span className="counter" onClick={handlePlus}>+</span>
             </div>
-            <button id="cartButton"><img src="src/assets/images/icon-cart.svg" alt="icon-cart"/>Add to cart</button>
+            <button type="submit" id="cartButton" onClick={addToBasket}><img src="src/assets/images/icon-cart.svg" alt="icon-cart" />Add to cart</button>
+            
         </section>
     )
 }
