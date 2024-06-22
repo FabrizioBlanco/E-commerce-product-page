@@ -1,9 +1,9 @@
 
 import './App.css'
-import Nav from './component/NavComponent/Nav'
-import ProductImage from './component/productComponent/ProductImage/ProductImage'
-import ProductDescription from './component/productComponent/ProductDescription/ProductDescription'
-import Cart from './component/CartComponent/Cart'
+import Nav from './component/NavComponent/Nav.jsx'
+import ProductImage from './component/productComponent/ProductImage/ProductImage.jsx'
+import ProductDescription from './component/productComponent/ProductDescription/ProductDescription.jsx'
+import Cart from './component/CartComponent/Cart.jsx'
 import { useState } from 'react'
 export default function App() {
   const [productCant, setProductCant] = useState(0)

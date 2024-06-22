@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./Nav.css"
-import Basket from "../BasketComponent/Basket"
-import useWindowWidth from "../../component/CustomHook/useWindowWidth"
+import Basket from "../BasketComponent/Basket.jsx"
+import useWindowWidth from "../../component/CustomHook/useWindowWidth.jsx"
 function Menu({ toggleMenu }) {
     return (
         <div className="menuContainer">
