@@ -1,4 +1,4 @@
-import "../ProductDescription/ProductDescription.css"
+import "./ProductDescription.css"
 export default function ProductDescription() {
     return (
         <section className="desContainer">

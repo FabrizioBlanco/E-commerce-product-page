@@ -1,5 +1,5 @@
-import useWindowWidth from "../../CustomHook/useWindowWidth.jsx"
-import "../ProductImage/ProductImage.css"
+import useWindowWidth from "../../CustomHook/useWindowWidth"
+import './ProductImage.css'
 export default function ProductImage({ productImg, setProductImg }) {
     const windowWidth = useWindowWidth()
     const handlePrevious = () => {

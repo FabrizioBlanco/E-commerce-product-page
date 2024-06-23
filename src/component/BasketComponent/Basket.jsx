@@ -19,7 +19,7 @@ export default function Basket({ toggleBucket,productCant, setProductCant }) {
                                         <b>${125 * productCant}</b>
                                     </div>
                                 </div>
-                                <img id="deleteButton" onClick={() => {setProductCant(0), toggleBucket(false)}} src="src\assets\images\icon-delete.svg" alt="delete button" />
+                                <img id="deleteButton" onClick={() => {setProductCant(0), toggleBucket(false)}} src="src/assets/images/icon-delete.svg" alt="delete button" />
                             </div>
                             <button type="submit" id="cartButton" onClick={() => console.log("You clicked to Checkout Button")}>Chekout</button>
                         </div>
