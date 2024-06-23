@@ -1,4 +1,5 @@
 import "../CartComponent/Cart.css"
+import cartIcon from '@/assets/images/icon-cart.svg'
 export default function Cart({ setProductCant, productCant }) {
 
     const addToBasket = () => {
@@ -20,7 +21,7 @@ export default function Cart({ setProductCant, productCant }) {
                 <p>{`${productCant}`}</p>
                 <span className="counter" onClick={handlePlus}>+</span>
             </div>
-            <button type="submit" id="cartButton" onClick={addToBasket}><img src="src/assets/images/icon-cart.svg" alt="icon-cart" />Add to cart</button>
+            <button type="submit" id="cartButton" onClick={addToBasket}><img src={cartIcon} alt="icon-cart" />Add to cart</button>
             
         </section>
     )

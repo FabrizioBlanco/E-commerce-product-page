@@ -1,4 +1,6 @@
 import "../BasketComponent/Basket.css"
+import productBasketImg from '@/assets/images/image-product-1-thumbnail.jpg'
+import deleteIcon from '@/assets/images/icon-delete.svg'
 export default function Basket({ toggleBucket,productCant, setProductCant }) {
 
     return (
@@ -11,7 +13,7 @@ export default function Basket({ toggleBucket,productCant, setProductCant }) {
                     <>
                         <div className="resumeContainer">
                             <div className="resumeDescription">
-                                <img src={`src/assets/images/image-product-1-thumbnail.jpg`} alt="product-img" />
+                                <img src={productBasketImg} alt="product-img" />
                                 <div className="BasketPriceContainer">
                                     <span>Fall Limited Edition Sneakers</span>
                                     <div className="BasketPrice">
@@ -19,7 +21,7 @@ export default function Basket({ toggleBucket,productCant, setProductCant }) {
                                         <b>${125 * productCant}</b>
                                     </div>
                                 </div>
-                                <img id="deleteButton" onClick={() => {setProductCant(0), toggleBucket(false)}} src="src/assets/images/icon-delete.svg" alt="delete button" />
+                                <img id="deleteButton" onClick={() => {setProductCant(0), toggleBucket(false)}} src={deleteIcon} alt="delete button" />
                             </div>
                             <button type="submit" id="cartButton" onClick={() => console.log("You clicked to Checkout Button")}>Chekout</button>
                         </div>
