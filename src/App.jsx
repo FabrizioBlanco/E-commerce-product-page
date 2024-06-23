@@ -1,4 +1,4 @@
-import '@/App.css'
+import './App.css'
 import Nav from "@/component/NavComponent/Nav.jsx"
 import ProductImage from '@/component/productComponent/ProductImage/ProductImage.jsx'
 import ProductDescription from '@/component/productComponent/ProductDescription/ProductDescription.jsx'
