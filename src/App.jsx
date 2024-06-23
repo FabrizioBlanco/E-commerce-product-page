@@ -1,5 +1,5 @@
 import './App.css'
-import Nav from './component/NavComponent/Nav'
+import Nav from './component/NavComponent/Nav.jsx'
 import ProductImage from './component/productComponent/ProductImage/ProductImage.jsx'
 import ProductDescription from './component/productComponent/ProductDescription/ProductDescription.jsx'
 import Cart from './component/CartComponent/Cart.jsx'
